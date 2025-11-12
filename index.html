@@ -1,96 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The Lubawang Ethnic Group of Sarawak</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Lun Bawang Ethnic Group of Sarawak</title>
   <style>
-    html { scroll-behavior: smooth; }
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+      line-height: 1.7;
+    }
+
+    header {
+      background: url("images/sarawak-highlands.jpg") no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 120px 20px;
+    }
+
+    header h1 {
+      font-size: 2.8em;
+      background: rgba(0, 0, 0, 0.5);
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
+
+    nav {
+      background-color: #2e5339;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 40px auto;
+      background: white;
+      border-radius: 10px;
+      padding: 30px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #2e5339;
+      border-bottom: 3px solid #d9b382;
+      padding-bottom: 8px;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 10px;
+      margin: 20px 0;
+    }
+
+    footer {
+      background-color: #2e5339;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      header h1 { font-size: 2em; }
+      nav a { display: block; margin: 10px 0; }
+    }
   </style>
 </head>
-<body class="bg-amber-50 text-gray-800 font-sans">
 
-  <!-- Hero Section -->
-  <header class="relative bg-amber-800 text-white text-center py-20">
-    <img src="image/sarawak-highlands.jpg" alt="Sarawak Highlands" class="absolute inset-0 w-full h-full object-cover opacity-40">
-    <div class="relative z-10">
-      <h1 class="text-4xl font-bold mb-3">Discover the Lubawang Ethnic Group of Sarawak</h1>
-      <p class="text-lg max-w-2xl mx-auto">Explore the rich heritage, customs, and way of life of one of Sarawak’s highland communities.</p>
-      <a href="#about" class="mt-6 inline-block bg-amber-500 hover:bg-amber-600 text-white px-6 py-3 rounded-full shadow-lg">Start Exploring</a>
-    </div>
+<body>
+
+  <header>
+    <h1>The Lun Bawang Ethnic Group of Sarawak</h1>
   </header>
 
-  <!-- Navigation Bar -->
-  <nav class="bg-amber-700 text-white flex justify-center space-x-6 p-3 sticky top-0 z-20">
-    <a href="#about" class="hover:underline">About</a>
-    <a href="#traditions" class="hover:underline">Traditions</a>
-    <a href="#food" class="hover:underline">Food</a>
-    <a href="#music" class="hover:underline">Music</a>
-    <a href="#gallery" class="hover:underline">Gallery</a>
-    <a href="#learnmore" class="hover:underline">Learn More</a>
+  <nav>
+    <a href="#intro">Introduction</a>
+    <a href="#history">History</a>
+    <a href="#culture">Culture & Traditions</a>
+    <a href="#festival">Festival</a>
   </nav>
 
-  <!-- About Section -->
-  <section id="about" class="p-8">
-    <h2 class="text-3xl font-bold text-amber-800 mb-4">Who Are the Lubawang?</h2>
-    <p class="mb-4">The Lubawang people, also known as Lun Bawang, are an indigenous ethnic group native to the northern highlands of Sarawak, mainly in the Lawas and Limbang districts. They are part of the larger Dayak community and share close cultural ties with the Kelabit and Murut groups.</p>
-    <p>The Lubawang speak the <em>Lun Bawang language</em>, which belongs to the Austronesian family. Traditionally, they lived in longhouses and practiced wet-rice farming, hunting, and fishing in the lush highland valleys.</p>
+  <section id="intro">
+    <h2>Introduction</h2>
+    <p><strong>Purpose:</strong> To introduce and promote the Lun Bawang ethnic group.</p>
+    <p>
+      The <strong>Lun Bawang</strong> are an ethnic group found in Central Northern Borneo. They are indigenous to
+      the southwest of Sabah (Sipitang, Tenom, Keningau) and the northern region of Sarawak (Lawas, Limbang, Miri),
+      as well as the highlands of North Kalimantan (Long Bawan, Krayan, Malinau, Mentarang) and Brunei (Temburong District).
+    </p>
+    <p>
+      They were among the last tribal groups on Borneo to renounce headhunting. The largest Lun Bawang groups include
+      the Tagal, Tidung, Timugon, Sembakung, Paluan, Bookan, Kalabakan, and Serundung.
+    </p>
+    <img src="images/lunbawang1.jpg" alt="Lun Bawang people in traditional attire">
   </section>
 
-  <!-- Traditions Section -->
-  <section id="traditions" class="bg-amber-100 p-8">
-    <h2 class="text-3xl font-bold text-amber-800 mb-4">Traditions & Customs</h2>
-    <p class="mb-4">The Lubawang are known for their strong community values and colorful traditional attire. Their clothing often features intricate beadwork and woven textiles that reflect their identity and creativity.</p>
-    <p class="mb-4">One of the most important celebrations is the <strong>Irau Aco Lun Bawang</strong>, or the Lubawang Festival — a joyful annual event where the community gathers to celebrate their heritage through dancing, singing, and sports.</p>
-    <p>Respect for elders, cooperation, and hospitality are central to their social life. Visitors are often warmly welcomed into their homes with food and stories.</p>
+  <section id="history">
+    <h2>History</h2>
+    <p>
+      The Lun Bawang people are one of the native ethnic groups that have lived on the island of Borneo for hundreds of years.
+      According to historians like Tom Harrisson (1959) and S. Runciman (1960), they were among the earliest settlers in the
+      central highlands of Borneo, closely related to the Kelabit tribe.
+    </p>
+    <p>
+      The Lun Bawang language is part of the Kelabit language family, and their dialects are similar. It is believed that
+      the Lun Bawang originally lived in the Kerayan-Kelabit highlands in Central Northeast Borneo and gradually migrated
+      to the lowlands of Sabah, Sarawak, and Brunei during the 17th and 18th centuries.
+    </p>
+    <p>
+      Their strong clan identity is reflected in how they name themselves after their regions—such as “Lun Adang” from
+      the Adang River area, or “Lun Kemaloh” from the Kemaloh River area. Over time, cultural and linguistic variations
+      developed between the Lun Bawang and Kelabit people.
+    </p>
+    <img src="images/longhouse.jpg" alt="Traditional Lun Bawang longhouse">
   </section>
 
-  <!-- Food Section -->
-  <section id="food" class="p-8">
-    <h2 class="text-3xl font-bold text-amber-800 mb-4">Food & Lifestyle</h2>
-    <p class="mb-4">Food is an essential part of Lubawang culture. Their traditional dishes are rich in natural flavors and are often prepared using bamboo and leaves.</p>
-    <ul class="list-disc pl-6 mb-4">
-      <li><strong>Nuba Laya</strong> – soft rice wrapped in leaves, eaten with side dishes.</li>
-      <li><strong>Pansoh</strong> – rice or meat cooked inside bamboo for a smoky flavor.</li>
-      <li><strong>Tapa</strong> – fermented meat or fish, a traditional preservation method.</li>
-    </ul>
-    <p>Many Lubawang families continue to farm rice, grow vegetables, and raise livestock, while maintaining a deep connection with nature.</p>
+  <section id="culture">
+    <h2>Culture and Traditions</h2>
+    <p>
+      Traditionally, the Lun Bawang people are farmers, cultivating rice and vegetables while also raising chickens, pigs,
+      and buffaloes. They are skilled hunters and fishermen, depending heavily on the forests and rivers around them.
+    </p>
+    <p>
+      Music plays a significant role in their culture, especially bamboo instruments like the <em>suling</em>. The Lun Bawang
+      are also known for their colorful traditional clothing worn during festivals and ceremonies.
+    </p>
+    <img src="images/lunbawang-music.jpg" alt="Lun Bawang traditional bamboo music">
   </section>
 
-  <!-- Music Section -->
-  <section id="music" class="bg-amber-100 p-8">
-    <h2 class="text-3xl font-bold text-amber-800 mb-4">Music & Dance</h2>
-    <p class="mb-4">Traditional music plays a big role in ceremonies and festivals. The Lubawang use bamboo flutes, gongs, and drums to accompany their songs and dances.</p>
-    <p>Their folk dances express joy and community spirit, performed during weddings and harvest celebrations. Songs are often passed down through generations, keeping their oral traditions alive.</p>
-    <img src="images/lunbawang-music.jpg" alt="Lubawang musicians performing" class="rounded-lg shadow-lg mt-4 mx-auto w-full md:w-2/3">
+  <section id="festival">
+    <h2>Irau Aco Lun Bawang Festival</h2>
+    <p>
+      Every year on June 1st, the Lun Bawang community celebrates <strong>Irau Aco Lun Bawang</strong> in Lawas, Sarawak.
+      Originally a thanksgiving ceremony for a successful rice harvest, it has grown into a grand cultural celebration.
+      The event features traditional performances, a beauty pageant called <em>Ruran Ulung</em>, and the <em>ngiup suling</em>
+      (bamboo music performance).
+    </p>
+    <img src="images/irau-aco-lun-bawang.jpg" alt="Irau Aco Lun Bawang Festival">
   </section>
 
-  
-  <!-- Gallery Section -->
-  <section id="gallery" class="p-8">
-    <h2 class="text-3xl font-bold text-amber-800 mb-6">Gallery</h2>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-      <img src="images/lubawang1.jpg" alt="Lubawang attire" class="rounded-lg shadow-lg hover:scale-105 transition-transform">
-      <img src="images/longhouse.jpg" alt="Traditional longhouse" class="rounded-lg shadow-lg hover:scale-105 transition-transform">
-      <img src="images/irau-aco-lun-bawang.jpg" alt="Irau Aco Festival" class="rounded-lg shadow-lg hover:scale-105 transition-transform">
-    </div>
-  </section>
-
-  <!-- Learn More Section -->
-  <section id="learnmore" class="bg-amber-100 p-8">
-    <h2 class="text-3xl font-bold text-amber-800 mb-4">Learn More</h2>
-    <p>Interested in discovering more about the Lubawang and other indigenous peoples of Borneo?</p>
-    <ul class="list-disc pl-6">
-      <li><a href="https://museum.sarawak.gov.my/" target="_blank" class="text-amber-700 hover:underline">Sarawak Museum Department</a></li>
-      <li><a href="https://borneomuseum.com/" target="_blank" class="text-amber-700 hover:underline">Borneo Cultural Heritage</a></li>
-      <li><a href="https://en.wikipedia.org/wiki/Lun_Bawang_people" target="_blank" class="text-amber-700 hover:underline">Wikipedia: Lun Bawang People</a></li>
-    </ul>
-  </section>
-
-  <!-- Footer -->
-  <footer class="bg-amber-800 text-white text-center p-4 mt-8">
-    <p>&copy; 2025 Learning About Lubawang | Designed by Mohamad Azzim</p>
+  <footer>
+    <p>&copy; 2025 Learn About the Lun Bawang | Designed by Mohamad Azzim</p>
   </footer>
+
 </body>
 </html>
